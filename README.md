@@ -1,4 +1,3 @@
-# OKE-Challenge-German
 # Improving Language-Dependent Named Entity Detection 
 
 This directory contains the dataset used for writing the paper "Improving Language-Dependent Named Entity Detection ", if you use this dataset for your experiments or mention the dataset in your study, please cite our paper using the following citation:
