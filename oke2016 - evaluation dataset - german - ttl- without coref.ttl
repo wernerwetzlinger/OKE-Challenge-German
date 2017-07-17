@@ -1,0 +1,2279 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://demo.org/document24#char=0,6>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Reagan"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document24#char=0,164> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Ronald_Reagan> .
+
+<http://demo.org/document13#char=82,97>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "James D. Watson"^^xsd:string ;
+        nif:beginIndex        "82"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "97"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document13#char=0,237> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/James_Watson> .
+
+<http://demo.org/document1#char=0,210>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "210"^^xsd:nonNegativeInteger ;
+        nif:isString    "Gegründet 1897 als Sport-Club Juventus von einer Gruppe junger Turiner Studenten, darunter auch der erste Präsident Eugenio Canfari und sein Bruder Enrico, Autor des historischen Gedächtnisses des Unternehmens."^^xsd:string .
+
+<http://demo.org/document14#char=95,102>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Staates"^^xsd:string ;
+        nif:beginIndex        "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "102"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document14#char=0,297> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Staat> .
+
+<http://demo.org/document16#char=0,200>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "200"^^xsd:nonNegativeInteger ;
+        nif:isString    "Unter anderem ist \"Präsident\" heute ein üblicher Titel für die Staatsoberhäupter der meisten Republiken, ob Präsidentschaftsrepubliken, Halbpräsidentschaftsrepubliken oder parlamentarische Republiken."^^xsd:string .
+
+<http://demo.org/document16#char=93,103>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Republiken"^^xsd:string ;
+        nif:beginIndex        "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document16#char=0,200> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Republik> .
+
+<http://demo.org/document41#char=127,142>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Open University"^^xsd:string ;
+        nif:beginIndex        "127"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document41#char=0,143> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/The_Open_University> .
+
+<http://demo.org/document17#char=104,116>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mitstudenten"^^xsd:string ;
+        nif:beginIndex        "104"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document17#char=0,195> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Student> .
+
+<http://demo.org/document7#char=22,32>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "New Yorker"^^xsd:string ;
+        nif:beginIndex        "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document7#char=0,317> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/New_York_City> .
+
+<http://demo.org/document39#char=0,296>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "296"^^xsd:nonNegativeInteger ;
+        nif:isString    "Brown wurde zuerst in der Kirkcaldy West Primary School ausgebildet, wo er für ein experimentelles Fast Stream Ausbildungsprogramm ausgewählt wurde, das ihn zwei Jahre früher zur Kirkcaldy High School für eine akademische Hothouse-Ausbildung brachte, die in getrennten Klassen unterrichtet wurde."^^xsd:string .
+
+<http://demo.org/document2#char=189,193>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Land"^^xsd:string ;
+        nif:beginIndex        "189"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document2#char=0,200> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Land> .
+
+<http://demo.org/document22#char=139,157>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Orso Mario Corbino"^^xsd:string ;
+        nif:beginIndex        "139"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "157"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document22#char=0,323> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Orso_Mario_Corbino> .
+
+<http://demo.org/document14#char=137,147>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Demokratie"^^xsd:string ;
+        nif:beginIndex        "137"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document14#char=0,297> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Demokratie> .
+
+<http://demo.org/document30#char=0,103>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "103"^^xsd:nonNegativeInteger ;
+        nif:isString    "Alfred Nobel wurde am 21. Oktober 1833 in Stockholm, Schweden, in eine Familie von Ingenieuren geboren."^^xsd:string .
+
+<http://demo.org/document14#char=22,31>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Oberhaupt"^^xsd:string ;
+        nif:beginIndex        "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "31"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document14#char=0,297> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Staatsoberhaupt> .
+
+<http://demo.org/document27#char=175,181>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rektor"^^xsd:string ;
+        nif:beginIndex        "175"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document27#char=0,280> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Rektor> .
+
+<http://demo.org/document4#char=38,57>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vereinigten Staaten"^^xsd:string ;
+        nif:beginIndex        "38"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document4#char=0,245> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Vereinigte_Staaten> .
+
+<http://demo.org/document41#char=32,38>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dozent"^^xsd:string ;
+        nif:beginIndex        "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "38"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document41#char=0,143> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Dozent> .
+
+<http://demo.org/document44#char=39,47>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Freundes"^^xsd:string ;
+        nif:beginIndex        "39"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document44#char=0,194> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Freundschaft> .
+
+<http://demo.org/document45#char=48,57>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Professor"^^xsd:string ;
+        nif:beginIndex        "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document45#char=0,247> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Professor> .
+
+<http://demo.org/document55#char=49,56>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bischof"^^xsd:string ;
+        nif:beginIndex        "49"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document55#char=0,69> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Bischof> .
+
+<http://demo.org/document46#char=48,54>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Arztes"^^xsd:string ;
+        nif:beginIndex        "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "54"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document46#char=0,134> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Arzt> .
+
+<http://demo.org/document25#char=19,25>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Reagan"^^xsd:string ;
+        nif:beginIndex        "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document25#char=0,294> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Ronald_Reagan> .
+
+<http://demo.org/document37#char=26,44>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "freier Mitarbeiter"^^xsd:string ;
+        nif:beginIndex        "26"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "44"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document37#char=0,266> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Freier_Mitarbeiter> .
+
+<http://demo.org/document30#char=0,12>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alfred Nobel"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document30#char=0,103> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Alfred_Nobel> .
+
+<http://demo.org/document23#char=76,85>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Studentin"^^xsd:string ;
+        nif:beginIndex        "76"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "85"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document23#char=0,166> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Student> .
+
+<http://demo.org/document47#char=205,212>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Trinity"^^xsd:string ;
+        nif:beginIndex        "205"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document47#char=0,274> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Trinity_College_%28Cambridge%29> .
+
+<http://demo.org/document38#char=16,23>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kanzler"^^xsd:string ;
+        nif:beginIndex        "16"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document38#char=0,409> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Kanzler> .
+
+<http://demo.org/document27#char=4,32>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "College von William und Mary"^^xsd:string ;
+        nif:beginIndex        "4"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document27#char=0,280> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/College_of_William_%26_Mary> .
+
+<http://demo.org/document5#char=140,145>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vater"^^xsd:string ;
+        nif:beginIndex        "140"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document5#char=0,250> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Vater> .
+
+<http://demo.org/document14#char=0,297>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "297"^^xsd:nonNegativeInteger ;
+        nif:isString    "Ein Präsident ist das Oberhaupt eines Staates, einer politischen Region oder eines Teils eines Staates, in der Regel eine Republik, eine Demokratie oder eine Diktatur. Der Titel \"Präsident\" wird manchmal im weiteren Sinne für Führungskräfte anderer Gruppen, einschließlich Körperschaften, genutzt."^^xsd:string .
+
+<http://demo.org/document34#char=76,100>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "British Computer Society"^^xsd:string ;
+        nif:beginIndex        "76"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document34#char=0,169> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/British_Computer_Society> .
+
+<http://demo.org/document13#char=0,237>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "237"^^xsd:nonNegativeInteger ;
+        nif:isString    "Von 1943 bis 1950 arbeitete er an der Indiana University. Sein erster Student war James D. Watson, der die Struktur der DNA mit Francis Crick entdeckte. Im Januar 1947 bekam Luria die Staatsbürgerschaft der Vereinigten Staaten verliehen."^^xsd:string .
+
+<http://demo.org/document9#char=135,138>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MIT"^^xsd:string ;
+        nif:beginIndex        "135"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "138"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document9#char=0,230> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Massachusetts_Institute_of_Technology> .
+
+<http://demo.org/document42#char=85,108>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universität von Glasgow"^^xsd:string ;
+        nif:beginIndex        "85"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "108"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document42#char=0,294> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/University_of_Glasgow> .
+
+<http://demo.org/document1#char=141,147>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bruder"^^xsd:string ;
+        nif:beginIndex        "141"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document1#char=0,210> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Bruder> .
+
+<http://demo.org/document23#char=50,62>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Enrico Fermi"^^xsd:string ;
+        nif:beginIndex        "50"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "62"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document23#char=0,166> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Enrico_Fermi> .
+
+<http://demo.org/document5#char=101,129>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bronx High School of Science"^^xsd:string ;
+        nif:beginIndex        "101"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "129"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document5#char=0,250> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Bronx_High_School_of_Science> .
+
+<http://demo.org/document20#char=0,5>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fermi"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document20#char=0,169> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Enrico_Fermi> .
+
+<http://demo.org/document12#char=151,170>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Columbia University"^^xsd:string ;
+        nif:beginIndex        "151"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document12#char=0,337> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Columbia_University> .
+
+<http://demo.org/document44#char=0,194>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "194"^^xsd:nonNegativeInteger ;
+        nif:isString    "Im Jahr 1766, in den Fußstapfen seines Freundes und ehemaligen Lehrers in Glasgow tretend, folgte Black William Cullen als Professor für Medizin und Chemie an der Universität von Edinburgh nach."^^xsd:string .
+
+<http://demo.org/document32#char=95,103>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Direktor"^^xsd:string ;
+        nif:beginIndex        "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document32#char=0,302> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Direktor> .
+
+<http://demo.org/document2#char=48,55>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Agnelli"^^xsd:string ;
+        nif:beginIndex        "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document2#char=0,200> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Agnelli> .
+
+<http://demo.org/document20#char=70,94>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universität von Cagliari"^^xsd:string ;
+        nif:beginIndex        "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document20#char=0,169> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Universit%C3%A4t_Cagliari> .
+
+<http://demo.org/document8#char=169,176>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cornell"^^xsd:string ;
+        nif:beginIndex        "169"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document8#char=0,177> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Cornell_University> .
+
+<http://demo.org/document19#char=22,29>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Italien"^^xsd:string ;
+        nif:beginIndex        "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document19#char=0,195> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Italien> .
+
+<http://demo.org/document28#char=42,53>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hochschulen"^^xsd:string ;
+        nif:beginIndex        "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document28#char=0,247> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Hochschule> .
+
+<http://demo.org/document20#char=99,108>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sardinien"^^xsd:string ;
+        nif:beginIndex        "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "108"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document20#char=0,169> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Sardinien> .
+
+<http://demo.org/document22#char=96,112>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bildungsminister"^^xsd:string ;
+        nif:beginIndex        "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document22#char=0,323> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Bildungsministerium> .
+
+<http://demo.org/document13#char=207,226>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vereinigten Staaten"^^xsd:string ;
+        nif:beginIndex        "207"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "226"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document13#char=0,237> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Vereinigte_Staaten> .
+
+<http://demo.org/document49#char=58,67>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cambridge"^^xsd:string ;
+        nif:beginIndex        "58"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "67"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document49#char=0,68> ;
+        itsrdf:taIdentRef     <https://en.wikipedia.org/wiki/University_of_Cambridge> .
+
+<http://demo.org/document13#char=174,179>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Luria"^^xsd:string ;
+        nif:beginIndex        "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document13#char=0,237> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Salvador_Edward_Luria> .
+
+<http://demo.org/document10#char=0,174>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "174"^^xsd:nonNegativeInteger ;
+        nif:isString    "Er schloss die Highschool mit 16 ab und ging dann an die Universität Turin. Trotz eines starken Interesses für Mathematik und Physik entschloss er sich, Medizin zu studieren."^^xsd:string .
+
+<http://demo.org/document25#char=4,14>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gouverneur"^^xsd:string ;
+        nif:beginIndex        "4"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document25#char=0,294> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Gouverneur> .
+
+<http://demo.org/document11#char=0,192>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "192"^^xsd:nonNegativeInteger ;
+        nif:isString    "Dulbecco war 1974 der Empfänger des Selman A. Waksman Award in der Mikrobiologie von der National Academy of Sciences. Er wurde 1974 zum Foreign Member of the Royal Society (ForMemRS) gewählt."^^xsd:string .
+
+<http://demo.org/document19#char=0,195>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "195"^^xsd:nonNegativeInteger ;
+        nif:isString    "Professuren wurden in Italien durch einen Wettbewerb (concorso) für einen freien Stuhl zugesprochen, die Bewerber wurden auf Grund ihre Publikationen von einem Ausschuss von Professoren bewertet."^^xsd:string .
+
+<http://demo.org/document49#char=24,54>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cavendish Professor für Physik"^^xsd:string ;
+        nif:beginIndex        "24"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "54"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document49#char=0,68> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Cavendish-Laboratorium#Cavendish-Professoren_f.C3.BCr_Physik> .
+
+<http://demo.org/document17#char=71,86>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Harvard College"^^xsd:string ;
+        nif:beginIndex        "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document17#char=0,195> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Harvard_University> .
+
+<http://demo.org/document12#char=100,105>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Luria"^^xsd:string ;
+        nif:beginIndex        "100"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document12#char=0,337> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Salvador_Edward_Luria> .
+
+<http://demo.org/document12#char=133,143>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Stipendium"^^xsd:string ;
+        nif:beginIndex        "133"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "143"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document12#char=0,337> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Stipendium> .
+
+<http://demo.org/document11#char=89,117>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "National Academy of Sciences"^^xsd:string ;
+        nif:beginIndex        "89"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "117"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document11#char=0,192> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/National_Academy_of_Sciences> .
+
+<http://demo.org/document29#char=159,166>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Laureat"^^xsd:string ;
+        nif:beginIndex        "159"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document29#char=0,268> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Laureat> .
+
+<http://demo.org/document1#char=19,38>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sport-Club Juventus"^^xsd:string ;
+        nif:beginIndex        "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "38"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document1#char=0,210> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Juventus_Turin> .
+
+<http://demo.org/document39#char=0,5>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brown"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document39#char=0,296> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Gordon_Brown> .
+
+<http://demo.org/document17#char=87,99>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mitbewohnern"^^xsd:string ;
+        nif:beginIndex        "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document17#char=0,195> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Wohngemeinschaft> .
+
+<http://demo.org/document35#char=240,299>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MIT Computer Science and Artificial Intelligence Laboratory"^^xsd:string ;
+        nif:beginIndex        "240"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "299"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document35#char=0,308> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/MIT_Computer_Science_and_Artificial_Intelligence_Laboratory> .
+
+<http://demo.org/document32#char=44,53>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Professor"^^xsd:string ;
+        nif:beginIndex        "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document32#char=0,302> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Professor> .
+
+<http://demo.org/document1#char=106,115>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Präsident"^^xsd:string ;
+        nif:beginIndex        "106"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document1#char=0,210> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Pr%C3%A4sident> .
+
+<http://demo.org/document44#char=163,188>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universität von Edinburgh"^^xsd:string ;
+        nif:beginIndex        "163"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document44#char=0,194> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/University_of_Edinburgh> .
+
+<http://demo.org/document48#char=41,51>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hochwürden"^^xsd:string ;
+        nif:beginIndex        "41"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document48#char=0,114> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Priester_%28Christentum%29> .
+
+<http://demo.org/document45#char=88,113>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universität von Edinburgh"^^xsd:string ;
+        nif:beginIndex        "88"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document45#char=0,247> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/University_of_Edinburgh> .
+
+<http://demo.org/document3#char=66,77>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Unternehmen"^^xsd:string ;
+        nif:beginIndex        "66"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document3#char=0,169> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Unternehmen> .
+
+<http://demo.org/document43#char=0,112>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "112"^^xsd:nonNegativeInteger ;
+        nif:isString    "Im Jahr 1757 wurde Black zum Regius Professor für die Praxis der Medizin an der Universität von Glasgow ernannt."^^xsd:string .
+
+<http://demo.org/document8#char=0,177>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "177"^^xsd:nonNegativeInteger ;
+        nif:isString    "Während der High School korrespondierte Kurzweil mit Marvin Minsky und wurde eingeladen, ihn am MIT zu besuchen, was er tat. Kurzweil besuchte auch Frank Rosenblatt auf Cornell."^^xsd:string .
+
+<http://demo.org/document25#char=77,84>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Staates"^^xsd:string ;
+        nif:beginIndex        "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document25#char=0,294> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Staat> .
+
+<http://demo.org/document5#char=206,216>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Aktivistin"^^xsd:string ;
+        nif:beginIndex        "206"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "216"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document5#char=0,250> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Aktivist> .
+
+<http://demo.org/document40#char=0,96>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "96"^^xsd:nonNegativeInteger ;
+        nif:isString    "Er diente als Rektor bis 1975 und bearbeitete auch das Dokument Das Rote Papier über Schottland."^^xsd:string .
+
+<http://demo.org/document38#char=0,6>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Browns"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document38#char=0,409> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Gordon_Brown> .
+
+<http://demo.org/document12#char=252,281>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cold Spring Harbor Laboratory"^^xsd:string ;
+        nif:beginIndex        "252"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "281"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document12#char=0,337> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Cold_Spring_Harbor_Laboratory> .
+
+<http://demo.org/document12#char=299,307>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Delbrück"^^xsd:string ;
+        nif:beginIndex        "299"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "307"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document12#char=0,337> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Max_Delbr%C3%BCck_%28Biophysiker%29> .
+
+<http://demo.org/document12#char=189,197>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Delbrück"^^xsd:string ;
+        nif:beginIndex        "189"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "197"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document12#char=0,337> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Max_Delbr%C3%BCck_%28Biophysiker%29> .
+
+<http://demo.org/document55#char=0,21>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Der heilige Petronius"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document55#char=0,69> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Petronius_von_Bologna> .
+
+<http://demo.org/document26#char=19,25>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rektor"^^xsd:string ;
+        nif:beginIndex        "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document26#char=0,171> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Rektor> .
+
+<http://demo.org/document22#char=310,318>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kabinett"^^xsd:string ;
+        nif:beginIndex        "310"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "318"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document22#char=0,323> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Kabinett_%28Politik%29> .
+
+<http://demo.org/document31#char=106,109>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "USA"^^xsd:string ;
+        nif:beginIndex        "106"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "109"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document31#char=0,150> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Vereinigte_Staaten> .
+
+<http://demo.org/document24#char=0,164>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "164"^^xsd:nonNegativeInteger ;
+        nif:isString    "Reagan wurde zweimal zum Präsidenten der Screen Actors Guild gewählt, der Gewerkschaft für Schauspieler, wo er daran arbeitete, kommunistischen Einfluss auszuroden."^^xsd:string .
+
+<http://demo.org/document7#char=91,97>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Eltern"^^xsd:string ;
+        nif:beginIndex        "91"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "97"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document7#char=0,317> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Eltern> .
+
+<http://demo.org/document26#char=3,10>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Italien"^^xsd:string ;
+        nif:beginIndex        "3"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document26#char=0,171> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Italien> .
+
+<http://demo.org/document16#char=172,199>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "parlamentarische Republiken"^^xsd:string ;
+        nif:beginIndex        "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "199"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document16#char=0,200> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Parlamentarisches_Regierungssystem> .
+
+<http://demo.org/document38#char=0,409>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "409"^^xsd:nonNegativeInteger ;
+        nif:isString    "Browns Zeit als Kanzler war von einer großen Reform der britischen Geld- und Fiskalpolitischen Architektur geprägt, wobei die Befugnis zur Setzung von Zinssätzen an die Bank of England übertragen wurden, von einer breiten Ausweitung der Befugnisse des Treasury zur Abdeckung weiter Teile der Innenpolitik, und durch die Übertragung der Verantwortung für die Bankenaufsicht an die Financial Services Authority."^^xsd:string .
+
+<http://demo.org/document55#char=61,68>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bologna"^^xsd:string ;
+        nif:beginIndex        "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "68"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document55#char=0,69> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Bologna> .
+
+<http://demo.org/document3#char=0,14>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gianni Agnelli"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document3#char=0,169> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Giovanni_Agnelli> .
+
+<http://demo.org/document18#char=89,98>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Studenten"^^xsd:string ;
+        nif:beginIndex        "89"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "98"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document18#char=0,221> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Student> .
+
+<http://demo.org/document6#char=0,161>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "161"^^xsd:nonNegativeInteger ;
+        nif:isString    "In den frühen 1970er Jahren, am MIT Artificial Intelligence Lab, begannen Minsky und Papert zu entwickeln, was die Society of Mind Theorie genannt werden sollte."^^xsd:string .
+
+<http://demo.org/document30#char=42,51>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Stockholm"^^xsd:string ;
+        nif:beginIndex        "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document30#char=0,103> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Stockholm> .
+
+<http://demo.org/document54#char=35,42>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bologna"^^xsd:string ;
+        nif:beginIndex        "35"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "42"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document54#char=0,99> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Bologna> .
+
+<http://demo.org/document22#char=79,86>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Italien"^^xsd:string ;
+        nif:beginIndex        "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document22#char=0,323> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Italien> .
+
+<http://demo.org/document37#char=48,52>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CERN"^^xsd:string ;
+        nif:beginIndex        "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document37#char=0,266> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/CERN> .
+
+<http://demo.org/document9#char=58,61>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MIT"^^xsd:string ;
+        nif:beginIndex        "58"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document9#char=0,230> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Massachusetts_Institute_of_Technology> .
+
+<http://demo.org/document42#char=215,236>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universität Edinburgh"^^xsd:string ;
+        nif:beginIndex        "215"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "236"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document42#char=0,294> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/University_of_Edinburgh> .
+
+<http://demo.org/document18#char=182,192>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ivy League"^^xsd:string ;
+        nif:beginIndex        "182"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document18#char=0,221> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Ivy_League> .
+
+<http://demo.org/document31#char=72,104>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rensselaer Polytechnic Institute"^^xsd:string ;
+        nif:beginIndex        "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document31#char=0,150> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Rensselaer_Polytechnic_Institute> .
+
+<http://demo.org/document9#char=87,100>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marvin Minsky"^^xsd:string ;
+        nif:beginIndex        "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document9#char=0,230> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Marvin_Minsky> .
+
+<http://demo.org/document3#char=161,168>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Europas"^^xsd:string ;
+        nif:beginIndex        "161"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document3#char=0,169> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Europa> .
+
+<http://demo.org/document22#char=250,270>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Instituts für Physik"^^xsd:string ;
+        nif:beginIndex        "250"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "270"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document22#char=0,323> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Institute_of_Physics> .
+
+<http://demo.org/document12#char=202,209>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hershey"^^xsd:string ;
+        nif:beginIndex        "202"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "209"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document12#char=0,337> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Alfred_Day_Hershey> .
+
+<http://demo.org/document42#char=0,294>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "294"^^xsd:nonNegativeInteger ;
+        nif:isString    "Er besuchte das Gymnasium in Belfast ab dem Alter von 12 Jahren und trat 1746 in die Universität von Glasgow ein, als er achtzehn Jahre alt war, um dort vier Jahre lang zu studieren, bevor er noch vier Jahre an der Universität Edinburgh verbrachte, um sein medizinisches Studium voranzutreiben."^^xsd:string .
+
+<http://demo.org/document43#char=19,24>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Black"^^xsd:string ;
+        nif:beginIndex        "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document43#char=0,112> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Joseph_Black> .
+
+<http://demo.org/document3#char=0,169>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "169"^^xsd:nonNegativeInteger ;
+        nif:isString    "Gianni Agnelli war von 1966 bis 2003 Chef von Fiat und machte das Unternehmen zum bedeutendsten Unternehmen in Italien und einem der größten Automobilhersteller Europas."^^xsd:string .
+
+<http://demo.org/document5#char=156,168>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Augenchirurg"^^xsd:string ;
+        nif:beginIndex        "156"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document5#char=0,250> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Chirurgie> .
+
+<http://demo.org/document28#char=221,230>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Präsident"^^xsd:string ;
+        nif:beginIndex        "221"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "230"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document28#char=0,247> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Kanzler_%28Hochschule%29> .
+
+<http://demo.org/document12#char=14,23>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Physikers"^^xsd:string ;
+        nif:beginIndex        "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document12#char=0,337> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Physiker> .
+
+<http://demo.org/document18#char=0,221>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "221"^^xsd:nonNegativeInteger ;
+        nif:isString    "Diese Leute, Gründer genannt, hatten zunächst die Mitgliedschaft der Website auf Harvard-Studenten beschränkt, erweiterten sie aber später auf Colleges in der Gegend von Boston, der Ivy League und der Stanford University."^^xsd:string .
+
+<http://demo.org/document17#char=0,195>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "195"^^xsd:nonNegativeInteger ;
+        nif:isString    "Dessen Website wurde am 4. Februar 2004 von Mark Zuckerberg mit seinen Harvard College Mitbewohnern und Mitstudenten Eduardo Saverin, Andrew McCollum, Dustin Moskovitz und Chris Hughes gestartet."^^xsd:string .
+
+<http://demo.org/document1#char=116,131>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Eugenio Canfari"^^xsd:string ;
+        nif:beginIndex        "116"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document1#char=0,210> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Eugenio_Canfari> .
+
+<http://demo.org/document50#char=0,134>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "134"^^xsd:nonNegativeInteger ;
+        nif:isString    "Faraday wurde in Newington Butts geboren, das jetzt Teil des Londoner Stadtteils Southwark ist, aber damals ein Vorort von Surrey war."^^xsd:string .
+
+<http://demo.org/document29#char=107,111>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Oslo"^^xsd:string ;
+        nif:beginIndex        "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "111"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document29#char=0,268> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Oslo> .
+
+<http://demo.org/document4#char=0,245>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "245"^^xsd:nonNegativeInteger ;
+        nif:isString    "Fiat hat eine lange Geschichte in den Vereinigten Staaten. Im Jahr 1908 wurde die Fiat Automobile Co. im Land gegründet und ein Werk in Poughkeepsie, N.Y. begann ein Jahr später die Produktion von Fiats, wie dem Fiat 60 HP und dem Fiat 16-20 HP."^^xsd:string .
+
+<http://demo.org/document41#char=54,83>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Glasgow College of Technology"^^xsd:string ;
+        nif:beginIndex        "54"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document41#char=0,143> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Glasgow_Caledonian_University> .
+
+<http://demo.org/document16#char=63,80>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Staatsoberhäupter"^^xsd:string ;
+        nif:beginIndex        "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document16#char=0,200> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Staatsoberhaupt> .
+
+<http://demo.org/document13#char=184,202>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Staatsbürgerschaft"^^xsd:string ;
+        nif:beginIndex        "184"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document13#char=0,237> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Staatsb%C3%BCrgerschaft> .
+
+<http://demo.org/document27#char=264,275>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Schulleiter"^^xsd:string ;
+        nif:beginIndex        "264"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document27#char=0,280> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Schulleitung> .
+
+<http://demo.org/document11#char=0,8>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dulbecco"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document11#char=0,192> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Renato_Dulbecco> .
+
+<http://demo.org/document45#char=104,113>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Edinburgh"^^xsd:string ;
+        nif:beginIndex        "104"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document45#char=0,247> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Edinburgh> .
+
+<http://demo.org/document4#char=136,154>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Poughkeepsie, N.Y."^^xsd:string ;
+        nif:beginIndex        "136"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document4#char=0,245> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Poughkeepsie> .
+
+<http://demo.org/document27#char=0,280>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "280"^^xsd:nonNegativeInteger ;
+        nif:isString    "Das College von William und Mary hat auch einen \"Kanzler\", der in einer zeremoniellen Funktion handelt. Bezogen auf amerikanische Highschools ist ein bemerkenswerter Fall der Rektor der St. Paul's School in New Hampshire, in der der Rektor gleichbedeutend mit dem Schulleiter ist."^^xsd:string .
+
+<http://demo.org/document24#char=91,103>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Schauspieler"^^xsd:string ;
+        nif:beginIndex        "91"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document24#char=0,164> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Schauspieler> .
+
+<http://demo.org/document53#char=0,82>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "82"^^xsd:nonNegativeInteger ;
+        nif:isString    "Er studierte in Bologna und Florenz und erhielt 1422 einen Abschluss in Theologie."^^xsd:string .
+
+<http://demo.org/document14#char=65,71>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Region"^^xsd:string ;
+        nif:beginIndex        "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document14#char=0,297> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Region> .
+
+<http://demo.org/document14#char=273,287>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Körperschaften"^^xsd:string ;
+        nif:beginIndex        "273"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document14#char=0,297> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/K%C3%B6rperschaft> .
+
+<http://demo.org/document46#char=17,25>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Richters"^^xsd:string ;
+        nif:beginIndex        "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document46#char=0,134> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Richter> .
+
+<http://demo.org/document36#char=110,116>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "London"^^xsd:string ;
+        nif:beginIndex        "110"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document36#char=0,205> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/London> .
+
+<http://demo.org/document36#char=0,205>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "205"^^xsd:nonNegativeInteger ;
+        nif:isString    "Er besuchte die Sheen Mount Primary School und ging dann von 1969 bis 1973 an die Emanuel Schule von Süd-West-London, zu jener Zeit eine Direct Grant Grammar School, die 1975 eine unabhängige Schule wurde."^^xsd:string .
+
+<http://demo.org/document34#char=11,17>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fellow"^^xsd:string ;
+        nif:beginIndex        "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document34#char=0,169> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Fellow> .
+
+<http://demo.org/document22#char=237,245>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Direktor"^^xsd:string ;
+        nif:beginIndex        "237"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "245"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document22#char=0,323> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Direktor> .
+
+<http://demo.org/document50#char=123,129>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Surrey"^^xsd:string ;
+        nif:beginIndex        "123"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "129"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document50#char=0,134> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Surrey> .
+
+<http://demo.org/document51#char=17,28>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universität"^^xsd:string ;
+        nif:beginIndex        "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document51#char=0,125> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Universit%C3%A4t> .
+
+<http://demo.org/document45#char=0,247>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "247"^^xsd:nonNegativeInteger ;
+        nif:isString    "Im Jahr 1755 wurde er von Lord Kames verleitet, Professor für Chemie und Medizin an der Universität von Edinburgh zu werden. Es war in Edinburgh, im Jahre 1756, dass er die erste dokumentierte öffentliche Demonstration der künstlichen Kühlung gab."^^xsd:string .
+
+<http://demo.org/document12#char=0,337>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "337"^^xsd:nonNegativeInteger ;
+        nif:isString    "Mit Hilfe des Physikers Enrico Fermi, den er von seiner Zeit an der Universität Rom kannte, erhielt Luria ein Rockefeller Foundation Stipendium an der Columbia University. Er traf bald mit Delbrück und Hershey zusammen und arbeitete an Experimenten am Cold Spring Harbor Laboratory und im Labor von Delbrück an der Vanderbilt University."^^xsd:string .
+
+<http://demo.org/document8#char=96,99>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MIT"^^xsd:string ;
+        nif:beginIndex        "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document8#char=0,177> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Massachusetts_Institute_of_Technology> .
+
+<http://demo.org/document30#char=53,61>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Schweden"^^xsd:string ;
+        nif:beginIndex        "53"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document30#char=0,103> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Schweden> .
+
+<http://demo.org/document25#char=248,261>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nationalgarde"^^xsd:string ;
+        nif:beginIndex        "248"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "261"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document25#char=0,294> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Nationalgarde_der_Vereinigten_Staaten> .
+
+<http://demo.org/document46#char=126,133>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Richter"^^xsd:string ;
+        nif:beginIndex        "126"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "133"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document46#char=0,134> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Richter> .
+
+<http://demo.org/document14#char=38,45>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Staates"^^xsd:string ;
+        nif:beginIndex        "38"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document14#char=0,297> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Staat> .
+
+<http://demo.org/document43#char=29,45>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Regius Professor"^^xsd:string ;
+        nif:beginIndex        "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document43#char=0,112> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Regius_Professor> .
+
+<http://demo.org/document11#char=36,80>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Selman A. Waksman Award in der Mikrobiologie"^^xsd:string ;
+        nif:beginIndex        "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document11#char=0,192> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Selman_A._Waksman_Award_in_Microbiology> .
+
+<http://demo.org/document52#char=0,119>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "119"^^xsd:nonNegativeInteger ;
+        nif:isString    "Die Universität von Glasgow wurde 1451 n.Chr. durch eine Urkunde oder päpstliche Bulle von Papst Nikolaus V. gegründet."^^xsd:string .
+
+<http://demo.org/document21#char=66,86>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universität Sapienza"^^xsd:string ;
+        nif:beginIndex        "66"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document21#char=0,87> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Universit%C3%A4t_La_Sapienza> .
+
+<http://demo.org/document47#char=71,81>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Schottland"^^xsd:string ;
+        nif:beginIndex        "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "81"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document47#char=0,274> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Schottland> .
+
+<http://demo.org/document5#char=0,17>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marvin Lee Minsky"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document5#char=0,250> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Marvin_Minsky> .
+
+<http://demo.org/document46#char=7,12>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vater"^^xsd:string ;
+        nif:beginIndex        "7"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document46#char=0,134> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Vater> .
+
+<http://demo.org/document12#char=110,132>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rockefeller Foundation"^^xsd:string ;
+        nif:beginIndex        "110"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document12#char=0,337> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Rockefeller-Stiftung> .
+
+<http://demo.org/document13#char=38,56>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Indiana University"^^xsd:string ;
+        nif:beginIndex        "38"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document13#char=0,237> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Indiana_University_Bloomington> .
+
+<http://demo.org/document9#char=0,230>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "230"^^xsd:nonNegativeInteger ;
+        nif:isString    "Er erhielt 1970 einen B.S. in Informatik und Literatur am MIT. Er ging zum MIT, um mit Marvin Minsky zu studieren. Er besuchte alle am MIT angebotenen Computer-Programmierung Kurse (acht oder neun) in den ersten anderthalb Jahren."^^xsd:string .
+
+<http://demo.org/document23#char=26,29>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rom"^^xsd:string ;
+        nif:beginIndex        "26"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document23#char=0,166> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Rom> .
+
+<http://demo.org/document5#char=27,40>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "New York City"^^xsd:string ;
+        nif:beginIndex        "27"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document5#char=0,250> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/New_York_City> .
+
+<http://demo.org/document29#char=237,250>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nobelstiftung"^^xsd:string ;
+        nif:beginIndex        "237"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document29#char=0,268> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Nobelpreis#Nobelstiftung> .
+
+<http://demo.org/document55#char=0,69>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "69"^^xsd:nonNegativeInteger ;
+        nif:isString    "Der heilige Petronius war im fünften Jahrhundert Bischof von Bologna."^^xsd:string .
+
+<http://demo.org/document37#char=95,99>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Genf"^^xsd:string ;
+        nif:beginIndex        "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document37#char=0,266> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Genf> .
+
+<http://demo.org/document32#char=61,83>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "University of Maryland"^^xsd:string ;
+        nif:beginIndex        "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document32#char=0,302> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/University_of_Maryland,_College_Park> .
+
+<http://demo.org/document7#char=45,51>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Queens"^^xsd:string ;
+        nif:beginIndex        "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document7#char=0,317> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Queens> .
+
+<http://demo.org/document40#char=14,20>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rektor"^^xsd:string ;
+        nif:beginIndex        "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document40#char=0,96> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Rektor> .
+
+<http://demo.org/document34#char=106,155>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Institute of Electrical and Electronics Engineers"^^xsd:string ;
+        nif:beginIndex        "106"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "155"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document34#char=0,169> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Institute_of_Electrical_and_Electronics_Engineers> .
+
+<http://demo.org/document10#char=57,74>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universität Turin"^^xsd:string ;
+        nif:beginIndex        "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document10#char=0,174> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Universit%C3%A4t_Turin> .
+
+<http://demo.org/document18#char=13,20>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gründer"^^xsd:string ;
+        nif:beginIndex        "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document18#char=0,221> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Gr%C3%BCnder> .
+
+<http://demo.org/document4#char=105,109>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Land"^^xsd:string ;
+        nif:beginIndex        "105"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "109"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document4#char=0,245> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Land> .
+
+<http://demo.org/document19#char=174,185>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Professoren"^^xsd:string ;
+        nif:beginIndex        "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "185"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document19#char=0,195> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Professor> .
+
+<http://demo.org/document47#char=0,274>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "274"^^xsd:nonNegativeInteger ;
+        nif:isString    "Im Oktober 1850, bereits ein vollendeter Mathematiker, verließ Maxwell Schottland für die Universität von Cambridge. Er besuchte zunächst Peterhouse, wechselte aber vor dem Ende seines ersten Semesters zu Trinity, wo er glaubte, es wäre leichter, ein Stipendium zu bekommen."^^xsd:string .
+
+<http://demo.org/document1#char=197,210>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Unternehmens."^^xsd:string ;
+        nif:beginIndex        "197"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document1#char=0,210> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Unternehmen> .
+
+<http://demo.org/document52#char=97,108>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nikolaus V."^^xsd:string ;
+        nif:beginIndex        "97"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "108"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document52#char=0,119> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Nikolaus_V._%28Papst%29> .
+
+<http://demo.org/document20#char=136,151>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Giovanni Giorgi"^^xsd:string ;
+        nif:beginIndex        "136"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "151"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document20#char=0,169> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Giovanni_Giorgi_%28Physiker%29> .
+
+<http://demo.org/document49#char=0,68>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "68"^^xsd:nonNegativeInteger ;
+        nif:isString    "1871 wurde er der erste Cavendish Professor für Physik in Cambridge."^^xsd:string .
+
+<http://demo.org/document35#char=0,11>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Berners-Lee"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document35#char=0,308> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Tim_Berners-Lee> .
+
+<http://demo.org/document32#char=0,302>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "302"^^xsd:nonNegativeInteger ;
+        nif:isString    "Hendler hatte eine langjährige Position als Professor an der University of Maryland, wo er der Direktor des Joint Institute for Knowledge Discovery war und hatte gemeinsame Berufung in der Abteilung für Informatik, dem Institut für Fortgeschrittene Computerstudien und dem Institut für Systemforschung."^^xsd:string .
+
+<http://demo.org/document54#char=67,84>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bischof Petronius"^^xsd:string ;
+        nif:beginIndex        "67"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document54#char=0,99> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Petronius_von_Bologna> .
+
+<http://demo.org/document47#char=138,148>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Peterhouse"^^xsd:string ;
+        nif:beginIndex        "138"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document47#char=0,274> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Peterhouse> .
+
+<http://demo.org/document17#char=117,132>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Eduardo Saverin"^^xsd:string ;
+        nif:beginIndex        "117"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document17#char=0,195> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Eduardo_Saverin> .
+
+<http://demo.org/document46#char=0,134>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "134"^^xsd:nonNegativeInteger ;
+        nif:isString    "Er war Vater des Richters Robert Cullen und des Arztes Henry Cullen. Cullens ältester Sohn Robert wurde 1796 ein schottischen Richter."^^xsd:string .
+
+<http://demo.org/document51#char=0,125>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "125"^^xsd:nonNegativeInteger ;
+        nif:isString    "Zusammen mit der Universität von Edinburgh war die Universität Teil der schottischen Aufklärung während des 18. Jahrhunderts."^^xsd:string .
+
+<http://demo.org/document38#char=56,66>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "britischen"^^xsd:string ;
+        nif:beginIndex        "56"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document38#char=0,409> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Gro%C3%9Fbritannien> .
+
+<http://demo.org/document11#char=159,172>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Royal Society"^^xsd:string ;
+        nif:beginIndex        "159"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document11#char=0,192> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Royal_Society> .
+
+<http://demo.org/document12#char=68,83>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universität Rom"^^xsd:string ;
+        nif:beginIndex        "68"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document12#char=0,337> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Universit%C3%A4t_La_Sapienza> .
+
+<http://demo.org/document29#char=50,58>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Schweden"^^xsd:string ;
+        nif:beginIndex        "50"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "58"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document29#char=0,268> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Schweden> .
+
+<http://demo.org/document46#char=86,90>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sohn"^^xsd:string ;
+        nif:beginIndex        "86"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "90"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document46#char=0,134> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Sohn> .
+
+<http://demo.org/document8#char=125,133>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kurzweil"^^xsd:string ;
+        nif:beginIndex        "125"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "133"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document8#char=0,177> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Raymond_Kurzweil> .
+
+<http://demo.org/document33#char=16,24>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Direktor"^^xsd:string ;
+        nif:beginIndex        "16"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document33#char=0,119> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Direktor> .
+
+<http://demo.org/document51#char=72,95>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "schottischen Aufklärung"^^xsd:string ;
+        nif:beginIndex        "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document51#char=0,125> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Schottische_Aufkl%C3%A4rung> .
+
+<http://demo.org/document3#char=46,50>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fiat"^^xsd:string ;
+        nif:beginIndex        "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "50"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document3#char=0,169> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Fiat_%28Marke%29> .
+
+<http://demo.org/document37#char=0,11>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Berners-Lee"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document37#char=0,266> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Tim_Berners-Lee> .
+
+<http://demo.org/document16#char=19,28>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Präsident"^^xsd:string ;
+        nif:beginIndex        "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document16#char=0,200> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Pr%C3%A4sident> .
+
+<http://demo.org/document31#char=0,150>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "150"^^xsd:nonNegativeInteger ;
+        nif:isString    "James Alexander Hendler ist ein Forscher der künstlichen Intelligenz am Rensselaer Polytechnic Institute, USA, und einer der Urheber des Semantic Web."^^xsd:string .
+
+<http://demo.org/document29#char=0,268>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "268"^^xsd:nonNegativeInteger ;
+        nif:isString    "Die Preiszeremonien finden jährlich in Stockholm, Schweden statt, mit Ausnahme des Friedenspreises, der in Oslo,Norwegen, stattfindet und jeder Empfänger oder Laureat, erhält eine Goldmedaille, ein Diplom und eine Geldsumme, die von der Nobelstiftung festgelegt wurde."^^xsd:string .
+
+<http://demo.org/document7#char=0,12>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ray Kurzweil"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document7#char=0,317> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Raymond_Kurzweil> .
+
+<http://demo.org/document17#char=172,184>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Chris Hughes"^^xsd:string ;
+        nif:beginIndex        "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "184"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document17#char=0,195> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Chris_Hughes_%28Unternehmer%29> .
+
+<http://demo.org/document24#char=25,36>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Präsidenten"^^xsd:string ;
+        nif:beginIndex        "25"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document24#char=0,164> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Pr%C3%A4sident> .
+
+<http://demo.org/document2#char=145,153>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Juventus"^^xsd:string ;
+        nif:beginIndex        "145"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document2#char=0,200> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Juventus_Turin> .
+
+<http://demo.org/document47#char=90,115>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universität von Cambridge"^^xsd:string ;
+        nif:beginIndex        "90"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document47#char=0,274> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/University_of_Cambridge> .
+
+<http://demo.org/document54#char=0,99>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "99"^^xsd:nonNegativeInteger ;
+        nif:isString    "Nach einem langen Niedergang wurde Bologna im 5. Jahrhundert unter Bischof Petronius wiedergeboren."^^xsd:string .
+
+<http://demo.org/document43#char=80,103>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universität von Glasgow"^^xsd:string ;
+        nif:beginIndex        "80"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document43#char=0,112> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/University_of_Glasgow> .
+
+<http://demo.org/document47#char=251,261>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Stipendium"^^xsd:string ;
+        nif:beginIndex        "251"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "261"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document47#char=0,274> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Stipendium> .
+
+<http://demo.org/document38#char=380,408>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Financial Services Authority"^^xsd:string ;
+        nif:beginIndex        "380"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "408"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document38#char=0,409> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Financial_Services_Authority> .
+
+<http://demo.org/document35#char=33,59>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "World Wide Web Consortiums"^^xsd:string ;
+        nif:beginIndex        "33"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document35#char=0,308> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/World_Wide_Web_Consortium> .
+
+<http://demo.org/document33#char=0,119>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "119"^^xsd:nonNegativeInteger ;
+        nif:isString    "Hendler war der Direktor für Semantic Web und Agent Technology im Maryland Information and Network Dynamics Laboratory."^^xsd:string .
+
+<http://demo.org/document53#char=16,23>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bologna"^^xsd:string ;
+        nif:beginIndex        "16"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document53#char=0,82> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Bologna> .
+
+<http://demo.org/document44#char=104,118>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "William Cullen"^^xsd:string ;
+        nif:beginIndex        "104"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document44#char=0,194> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/William_Cullen> .
+
+<http://demo.org/document44#char=98,103>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Black"^^xsd:string ;
+        nif:beginIndex        "98"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document44#char=0,194> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Joseph_Black> .
+
+<http://demo.org/document7#char=0,317>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "317"^^xsd:nonNegativeInteger ;
+        nif:isString    "Ray Kurzweil wuchs im New Yorker Stadtbezirk Queens auf. Er wurde von weltlichen jüdischen Eltern geboren, die kurz vor dem Beginn des Zweiten Weltkrieges aus Österreich ausgewandert waren. Er wurde über den Unitarischen Universalismus einer Vielfalt religiöser Glaubensrichtungen während seiner Erziehung ausgesetzt."^^xsd:string .
+
+<http://demo.org/document28#char=148,155>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kanzler"^^xsd:string ;
+        nif:beginIndex        "148"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "155"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document28#char=0,247> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Kanzler_%28Hochschule%29> .
+
+<http://demo.org/document14#char=122,130>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Republik"^^xsd:string ;
+        nif:beginIndex        "122"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document14#char=0,297> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Republik> .
+
+<http://demo.org/document41#char=0,143>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "143"^^xsd:nonNegativeInteger ;
+        nif:isString    "Von 1976 bis 1980 war Brown als Dozent für Politik am Glasgow College of Technology tätig. Er arbeitete auch als Tutor für die Open University."^^xsd:string .
+
+<http://demo.org/document41#char=113,118>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tutor"^^xsd:string ;
+        nif:beginIndex        "113"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document41#char=0,143> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Tutor> .
+
+<http://demo.org/document15#char=21,30>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Präsident"^^xsd:string ;
+        nif:beginIndex        "21"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document15#char=0,241> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Pr%C3%A4sident> .
+
+<http://demo.org/document34#char=164,168>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "AAAS"^^xsd:string ;
+        nif:beginIndex        "164"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document34#char=0,169> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/American_Association_for_the_Advancement_of_Science> .
+
+<http://demo.org/document27#char=49,56>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kanzler"^^xsd:string ;
+        nif:beginIndex        "49"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document27#char=0,280> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Kanzler_%28Hochschule%29> .
+
+<http://demo.org/document4#char=82,101>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fiat Automobile Co."^^xsd:string ;
+        nif:beginIndex        "82"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document4#char=0,245> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Fiat_%28Marke%29> .
+
+<http://demo.org/document53#char=28,35>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Florenz"^^xsd:string ;
+        nif:beginIndex        "28"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document53#char=0,82> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Florenz> .
+
+<http://demo.org/document6#char=85,91>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Papert"^^xsd:string ;
+        nif:beginIndex        "85"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "91"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document6#char=0,161> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Seymour_Papert> .
+
+<http://demo.org/document41#char=22,27>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brown"^^xsd:string ;
+        nif:beginIndex        "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document41#char=0,143> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Gordon_Brown> .
+
+<http://demo.org/document6#char=74,80>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Minsky"^^xsd:string ;
+        nif:beginIndex        "74"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document6#char=0,161> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Marvin_Minsky> .
+
+<http://demo.org/document51#char=17,42>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universität von Edinburgh"^^xsd:string ;
+        nif:beginIndex        "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "42"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document51#char=0,125> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/University_of_Edinburgh> .
+
+<http://demo.org/document4#char=0,4>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fiat"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document4#char=0,245> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Fiat_%28Marke%29> .
+
+<http://demo.org/document3#char=111,118>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Italien"^^xsd:string ;
+        nif:beginIndex        "111"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document3#char=0,169> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Italien> .
+
+<http://demo.org/document21#char=0,87>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "87"^^xsd:nonNegativeInteger ;
+        nif:isString    "1926, im Alter von 24 Jahren, beantragte er eine Professur an der Universität Sapienza."^^xsd:string .
+
+<http://demo.org/document50#char=0,7>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Faraday"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document50#char=0,134> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Michael_Faraday> .
+
+<http://demo.org/document26#char=0,171>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "171"^^xsd:nonNegativeInteger ;
+        nif:isString    "In Italien ist der Rektor der Leiter der Universität und Rappresentante Legale (gesetzlicher Vertreter) der Universität. Er oder sie wird von einer Wahlkommission gewählt."^^xsd:string .
+
+<http://demo.org/document37#char=0,266>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "266"^^xsd:nonNegativeInteger ;
+        nif:isString    "Berners-Lee arbeitete als freier Mitarbeiter am CERN von Juni bis Dezember 1980. Während er in Genf war, schlug er ein Projekt vor, das auf dem Konzept des Hypertextes basierte, um das Teilen und Aktualisieren von Informationen zwischen den Forschern zu erleichtern."^^xsd:string .
+
+<http://demo.org/document8#char=53,66>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marvin Minsky"^^xsd:string ;
+        nif:beginIndex        "53"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document8#char=0,177> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Marvin_Minsky> .
+
+<http://demo.org/document1#char=156,161>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Autor"^^xsd:string ;
+        nif:beginIndex        "156"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document1#char=0,210> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Autor> .
+
+<http://demo.org/document13#char=128,141>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Francis Crick"^^xsd:string ;
+        nif:beginIndex        "128"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "141"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document13#char=0,237> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Francis_Crick> .
+
+<http://demo.org/document22#char=180,189>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Professor"^^xsd:string ;
+        nif:beginIndex        "180"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "189"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document22#char=0,323> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Professor> .
+
+<http://demo.org/document35#char=20,28>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Direktor"^^xsd:string ;
+        nif:beginIndex        "20"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document35#char=0,308> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Direktor> .
+
+<http://demo.org/document50#char=61,90>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Londoner Stadtteils Southwark"^^xsd:string ;
+        nif:beginIndex        "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "90"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document50#char=0,134> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/London_Borough_of_Southwark> .
+
+<http://demo.org/document22#char=129,138>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Professor"^^xsd:string ;
+        nif:beginIndex        "129"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "138"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document22#char=0,323> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Professor> .
+
+<http://demo.org/document18#char=81,88>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Harvard"^^xsd:string ;
+        nif:beginIndex        "81"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "88"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document18#char=0,221> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Harvard_University> .
+
+<http://demo.org/document50#char=17,32>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Newington Butts"^^xsd:string ;
+        nif:beginIndex        "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document50#char=0,134> ;
+        itsrdf:taIdentRef     <https://en.wikipedia.org/wiki/Newington_Butts> .
+
+<http://demo.org/document52#char=4,27>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universität von Glasgow"^^xsd:string ;
+        nif:beginIndex        "4"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document52#char=0,119> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/University_of_Glasgow> .
+
+<http://demo.org/document7#char=208,220>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Unitarischen"^^xsd:string ;
+        nif:beginIndex        "208"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document7#char=0,317> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Unitarismus_(Religion)> .
+
+<http://demo.org/document18#char=143,151>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Colleges"^^xsd:string ;
+        nif:beginIndex        "143"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "151"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document18#char=0,221> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/College> .
+
+<http://demo.org/document16#char=136,166>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Halbpräsidentschaftsrepubliken"^^xsd:string ;
+        nif:beginIndex        "136"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document16#char=0,200> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Semipr%C3%A4sidentielles_Regierungssystem> .
+
+<http://demo.org/document12#char=315,336>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vanderbilt University"^^xsd:string ;
+        nif:beginIndex        "315"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "336"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document12#char=0,337> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Vanderbilt_University> .
+
+<http://demo.org/document8#char=40,48>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kurzweil"^^xsd:string ;
+        nif:beginIndex        "40"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document8#char=0,177> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Raymond_Kurzweil> .
+
+<http://demo.org/document25#char=143,170>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universität von Kalifornien"^^xsd:string ;
+        nif:beginIndex        "143"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document25#char=0,294> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/University_of_California> .
+
+<http://demo.org/document47#char=41,53>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mathematiker"^^xsd:string ;
+        nif:beginIndex        "41"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document47#char=0,274> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Mathematiker> .
+
+<http://demo.org/document26#char=41,52>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universität"^^xsd:string ;
+        nif:beginIndex        "41"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document26#char=0,171> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Universit%C3%A4t> .
+
+<http://demo.org/document14#char=4,13>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Präsident"^^xsd:string ;
+        nif:beginIndex        "4"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document14#char=0,297> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Pr%C3%A4sident> .
+
+<http://demo.org/document22#char=0,323>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "323"^^xsd:nonNegativeInteger ;
+        nif:isString    "Dies war ein neuer Stuhl, einer der ersten drei in der theoretischen Physik in Italien, der vom Bildungsminister auf Drängen von Professor Orso Mario Corbino geschaffen wurde, der Professor für experimentelle Physik der Universität, der Direktor des Instituts für Physik und ein Mitglied von Benito Mussolinis Kabinett war."^^xsd:string .
+
+<http://demo.org/document6#char=32,63>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MIT Artificial Intelligence Lab"^^xsd:string ;
+        nif:beginIndex        "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document6#char=0,161> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/MIT_Computer_Science_and_Artificial_Intelligence_Laboratory> .
+
+<http://demo.org/document48#char=0,114>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "114"^^xsd:nonNegativeInteger ;
+        nif:isString    "Im Jahre 1857 freundete sich Maxwell mit Hochwürden Daniel Dewar an, der damals der Schulleiter von Marischal war."^^xsd:string .
+
+<http://demo.org/document29#char=39,48>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Stockholm"^^xsd:string ;
+        nif:beginIndex        "39"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document29#char=0,268> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Stockholm> .
+
+<http://demo.org/document25#char=0,294>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "294"^^xsd:nonNegativeInteger ;
+        nif:isString    "Als Gouverneur hob Reagan die Steuern an, wandelte das Defizit im Budget des Staates zu einem Überschuss um, forderte die Demonstranten an der Universität von Kalifornien heraus, forderte in der Zeit der Protestbewegungen im Jahre 1969 Truppen der Nationalgarde an und wurde 1970 wiedergewählt."^^xsd:string .
+
+<http://demo.org/document44#char=123,132>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Professor"^^xsd:string ;
+        nif:beginIndex        "123"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document44#char=0,194> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Professor> .
+
+<http://demo.org/document40#char=85,95>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Schottland"^^xsd:string ;
+        nif:beginIndex        "85"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document40#char=0,96> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Schottland> .
+
+<http://demo.org/document35#char=0,308>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "308"^^xsd:nonNegativeInteger ;
+        nif:isString    "Berners-Lee ist der Direktor des World Wide Web Consortiums (W3C), das die Weiterentwicklung des Internets überwacht. Er ist auch der Gründer der World Wide Web Foundation und ist ein hochrangiger Forscher und Inhaber des Founder Chairs am MIT Computer Science and Artificial Intelligence Laboratory (CSAIL)."^^xsd:string .
+
+<http://demo.org/document23#char=121,136>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universität Rom"^^xsd:string ;
+        nif:beginIndex        "121"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document23#char=0,166> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Universit%C3%A4t_La_Sapienza> .
+
+<http://demo.org/document23#char=0,166>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "166"^^xsd:nonNegativeInteger ;
+        nif:isString    "Laura Capon wurde 1907 in Rom geboren. Capon traf Enrico Fermi, während sie Studentin der Allgemeinwissenschaften an der Universität Rom war. Das Paar heiratete 1928."^^xsd:string .
+
+<http://demo.org/document19#char=0,11>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Professuren"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document19#char=0,195> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Professor> .
+
+<http://demo.org/document27#char=207,220>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "New Hampshire"^^xsd:string ;
+        nif:beginIndex        "207"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document27#char=0,280> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/New_Hampshire> .
+
+<http://demo.org/document17#char=44,59>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mark Zuckerberg"^^xsd:string ;
+        nif:beginIndex        "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document17#char=0,195> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Mark_Zuckerberg> .
+
+<http://demo.org/document18#char=170,176>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Boston"^^xsd:string ;
+        nif:beginIndex        "170"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document18#char=0,221> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Boston> .
+
+<http://demo.org/document44#char=74,81>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Glasgow"^^xsd:string ;
+        nif:beginIndex        "74"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "81"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document44#char=0,194> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Glasgow> .
+
+<http://demo.org/document42#char=29,36>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Belfast"^^xsd:string ;
+        nif:beginIndex        "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document42#char=0,294> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Belfast> .
+
+<http://demo.org/document10#char=15,25>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Highschool"^^xsd:string ;
+        nif:beginIndex        "15"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document10#char=0,174> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Highschool> .
+
+<http://demo.org/document28#char=13,19>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rektor"^^xsd:string ;
+        nif:beginIndex        "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document28#char=0,247> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Rektor> .
+
+<http://demo.org/document18#char=201,220>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Stanford University"^^xsd:string ;
+        nif:beginIndex        "201"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document18#char=0,221> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Stanford_University> .
+
+<http://demo.org/document34#char=0,169>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "169"^^xsd:nonNegativeInteger ;
+        nif:isString    "Er ist ein Fellow der American Association for Artificial Intelligence, der British Computer Society, des Institute of Electrical and Electronics Engineers und der AAAS."^^xsd:string .
+
+<http://demo.org/document48#char=29,36>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maxwell"^^xsd:string ;
+        nif:beginIndex        "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document48#char=0,114> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/James_Clerk_Maxwell> .
+
+<http://demo.org/document47#char=63,70>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maxwell"^^xsd:string ;
+        nif:beginIndex        "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document47#char=0,274> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/James_Clerk_Maxwell> .
+
+<http://demo.org/document44#char=63,70>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lehrers"^^xsd:string ;
+        nif:beginIndex        "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document44#char=0,194> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Lehrer> .
+
+<http://demo.org/document7#char=221,235>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universalismus"^^xsd:string ;
+        nif:beginIndex        "221"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document7#char=0,317> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Universalismus_(Religionswissenschaft)> .
+
+<http://demo.org/document7#char=159,169>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Österreich"^^xsd:string ;
+        nif:beginIndex        "159"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document7#char=0,317> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/%C3%96sterreich> .
+
+<http://demo.org/document22#char=220,231>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universität"^^xsd:string ;
+        nif:beginIndex        "220"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "231"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document22#char=0,323> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Universit%C3%A4t> .
+
+<http://demo.org/document2#char=117,124>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Italien"^^xsd:string ;
+        nif:beginIndex        "117"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "124"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document2#char=0,200> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Italien> .
+
+<http://demo.org/document2#char=0,200>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "200"^^xsd:nonNegativeInteger ;
+        nif:isString    "Sie sind seit 1923 von der Industriellenfamilie Agnelli geleitet worden, was die älteste sportliche Partnerschaft in Italien darstellt und damit Juventus zum ersten professionellen Club im Land macht."^^xsd:string .
+
+<http://demo.org/document16#char=108,134>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Präsidentschaftsrepubliken"^^xsd:string ;
+        nif:beginIndex        "108"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "134"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document16#char=0,200> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Pr%C3%A4sidentielles_Regierungssystem> .
+
+<http://demo.org/document5#char=185,191>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mutter"^^xsd:string ;
+        nif:beginIndex        "185"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document5#char=0,250> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Mutter> .
+
+<http://demo.org/document8#char=148,164>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Frank Rosenblatt"^^xsd:string ;
+        nif:beginIndex        "148"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "164"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document8#char=0,177> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Frank_Rosenblatt> .
+
+<http://demo.org/document45#char=26,36>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lord Kames"^^xsd:string ;
+        nif:beginIndex        "26"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document45#char=0,247> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Henry_Home_Kames> .
+
+<http://demo.org/document15#char=0,241>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "241"^^xsd:nonNegativeInteger ;
+        nif:isString    "Etymologisch ist ein Präsident jemand der präsidiert. Ursprünglich bezog sich der Begriff auf den präsidierenden Funktionär einer Zeremonie oder eines Treffens (d. H. Vorsitzender), aber heute bezieht es sich meistens auf eine Führungskraft."^^xsd:string .
+
+<http://demo.org/document1#char=71,80>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Studenten"^^xsd:string ;
+        nif:beginIndex        "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document1#char=0,210> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Student> .
+
+<http://demo.org/document21#char=49,58>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Professur"^^xsd:string ;
+        nif:beginIndex        "49"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "58"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document21#char=0,87> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Professor> .
+
+<http://demo.org/document14#char=158,166>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Diktatur"^^xsd:string ;
+        nif:beginIndex        "158"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document14#char=0,297> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Diktatur> .
+
+<http://demo.org/document13#char=70,77>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Student"^^xsd:string ;
+        nif:beginIndex        "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document13#char=0,237> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Student> .
+
+<http://demo.org/document5#char=0,250>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "250"^^xsd:nonNegativeInteger ;
+        nif:isString    "Marvin Lee Minsky wurde in New York City geboren, wo er die Ethical Culture Fieldston School und die Bronx High School of Science besuchte. Vater Henry war Augenchirurg, seine jüdische Mutter, Fannie, eine Aktivistin in zionistischen Angelegenheiten."^^xsd:string .
+
+<http://demo.org/document28#char=0,247>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "247"^^xsd:nonNegativeInteger ;
+        nif:isString    "Der Begriff \"Rektor\" ist in australischen Hochschulen unüblich. Der Chef einer australischen Universität hat traditionell den britischen Titel Vize-Kanzler bekommen, obwohl in jüngster Zeit auch der amerikanische Begriff Präsident verwendet wurde."^^xsd:string .
+
+<http://demo.org/document27#char=233,239>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rektor"^^xsd:string ;
+        nif:beginIndex        "233"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "239"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document27#char=0,280> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Rektor> .
+
+<http://demo.org/document38#char=169,184>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bank of England"^^xsd:string ;
+        nif:beginIndex        "169"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "184"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document38#char=0,409> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Bank_of_England> .
+
+<http://demo.org/document12#char=24,36>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Enrico Fermi"^^xsd:string ;
+        nif:beginIndex        "24"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document12#char=0,337> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Enrico_Fermi> .
+
+<http://demo.org/document14#char=226,240>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Führungskräfte"^^xsd:string ;
+        nif:beginIndex        "226"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document14#char=0,297> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/F%C3%BChrungskraft> .
+
+<http://demo.org/document29#char=112,120>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Norwegen"^^xsd:string ;
+        nif:beginIndex        "112"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document29#char=0,268> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Norwegen> .
+
+<http://demo.org/document27#char=130,141>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Highschools"^^xsd:string ;
+        nif:beginIndex        "130"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "141"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document27#char=0,280> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Highschool> .
+
+<http://demo.org/document17#char=151,167>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dustin Moskovitz"^^xsd:string ;
+        nif:beginIndex        "151"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "167"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document17#char=0,195> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Dustin_Moskovitz> .
+
+<http://demo.org/document22#char=292,309>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Benito Mussolinis"^^xsd:string ;
+        nif:beginIndex        "292"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document22#char=0,323> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Benito_Mussolini> .
+
+<http://demo.org/document14#char=179,188>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Präsident"^^xsd:string ;
+        nif:beginIndex        "179"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document14#char=0,297> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Pr%C3%A4sident> .
+
+<http://demo.org/document28#char=93,104>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universität"^^xsd:string ;
+        nif:beginIndex        "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document28#char=0,247> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Universit%C3%A4t> .
+
+<http://demo.org/document30#char=83,94>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ingenieuren"^^xsd:string ;
+        nif:beginIndex        "83"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document30#char=0,103> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Ingenieur> .
+
+<http://demo.org/document38#char=252,260>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Treasury"^^xsd:string ;
+        nif:beginIndex        "252"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "260"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document38#char=0,409> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Treasury> .
+
+<http://demo.org/document20#char=0,169>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "169"^^xsd:nonNegativeInteger ;
+        nif:isString    "Fermi bewarb sich für einen Lehrstuhl für mathematische Physik an der Universität von Cagliari auf Sardinien, wurde aber zu Gunsten von Giovanni Giorgi knapp übergangen."^^xsd:string .
+
+<http://demo.org/document35#char=134,141>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gründer"^^xsd:string ;
+        nif:beginIndex        "134"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "141"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://demo.org/document35#char=0,308> ;
+        itsrdf:taIdentRef     <https://de.wikipedia.org/wiki/Gr%C3%BCnder> .
